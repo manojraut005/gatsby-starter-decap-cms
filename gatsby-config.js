@@ -66,6 +66,7 @@ module.exports = {
       resolve: "gatsby-plugin-decap-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        enableIdentityWidget: true,
       },
     },
     {
@@ -79,3 +80,4 @@ module.exports = {
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
+// hi there
